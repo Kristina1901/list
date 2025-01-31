@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Formular";
+  src: local(""), url("./assets/fonts/Formular-Medium.woff") format("woff"),
+    url("./assets/fonts/Formular-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Greenwich";
+  src: local(""), url("./assets/fonts/Greenwich-Medium.woff") format("woff"),
+    url("./assets/fonts/Greenwich-Medium.woff2") format("woff2");
+  font-weight: 500;
+}
+div {
+  width: 100%;
+}
+ul {
+  width: 100%;
+}
+li {
+  width: 100%;
+}
+img {
+  display: block;
+}
+body {
+  min-height: 100vh;
+  font-size: 16px;
+  font-family: "Formular", sans-serif;
+  margin: 0;
+  font-weight: 500;
+  background: white;
+  color: black;
+}
+* {
+  font-family: inherit;
+  font-weight: inherit;
+  box-sizing: border-box;
+}
+a {
+  display: block;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+@media (min-width: 1440px) {
+  a {
+    font-size: 32px;
+  }
+}
