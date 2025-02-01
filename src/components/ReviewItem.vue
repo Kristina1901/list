@@ -38,9 +38,9 @@ const toggleActive = () => {
       <a class="watch" :href="review.link">
         {{ $t("watch") }}
       </a>
-      <a class="write" @click="toggleActive">
+      <button class="write" @click="toggleActive">
         {{ $t("write") }}
-      </a>
+      </button>
     </div>
   </li>
 </template>
